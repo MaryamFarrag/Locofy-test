@@ -140,7 +140,6 @@
   flex-shrink: 0;
 }
 .landingPage2 {
-  width: 1440px;
   background-color: var(--colour-secondary-white-100-general);
   overflow: hidden;
   display: flex;
