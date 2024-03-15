@@ -1,0 +1,140 @@
+.rectangle {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  bottom: 0;
+  left: -4px;
+}
+.undrawHappyNewsHxmtIcon {
+  height: 315.8px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  min-width: 312px;
+  z-index: 1;
+}
+.title {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 48px;
+  font-weight: 500;
+  font-family: inherit;
+  z-index: 1;
+}
+.loremIpsumDolor {
+  margin-block-start: 0;
+  margin-block-end: 10px;
+}
+.musDonecQuam {
+  margin: 0;
+}
+.body {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--regular-16-size);
+  line-height: 26px;
+  color: var(--colour-main-blue-400);
+  z-index: 1;
+}
+.titleParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.intro,
+.introInner {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.introInner {
+  width: 445px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 36.200000000000045px;
+  min-width: 445px;
+}
+.intro {
+  width: 1436px;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 122.40000000000008px var(--padding-146xl) 130.79999999999995px
+    var(--padding-172xl);
+  position: relative;
+  gap: var(--gap-136xl);
+}
+.designer1Icon {
+  height: 1161px;
+  width: 1490px;
+  position: relative;
+  object-fit: cover;
+  max-width: 103%;
+  flex-shrink: 0;
+  z-index: 1;
+  margin-left: -1018.7px;
+}
+.introParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--medium-36-size);
+  color: var(--colour-main-blue-900);
+  font-family: var(--regular-14);
+}
+@media screen and (max-width: 1200px) {
+  .introInner {
+    flex: 1;
+  }
+  .intro {
+    flex-wrap: wrap;
+    gap: 155px 77px;
+    padding-left: var(--padding-76xl);
+    padding-right: var(--padding-63xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .title {
+    font-size: var(--font-size-10xl);
+    line-height: 38px;
+  }
+  .introInner {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .intro {
+    gap: 155px 39px;
+    padding: var(--padding-61xl) var(--padding-22xl) var(--padding-66xl)
+      var(--padding-28xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .title {
+    font-size: var(--font-size-3xl);
+    line-height: 29px;
+  }
+  .intro {
+    gap: 155px 19px;
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

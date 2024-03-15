@@ -1,0 +1,129 @@
+.rectangle {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  bottom: 0;
+  left: -4px;
+}
+.undrawSocialInfluencerSgsvIcon {
+  height: 387px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  min-width: 351px;
+  z-index: 1;
+}
+.title {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 48px;
+  font-weight: 500;
+  font-family: inherit;
+  z-index: 1;
+}
+.loremIpsumDolor {
+  margin-block-start: 0;
+  margin-block-end: 10px;
+}
+.musDonecQuam {
+  margin: 0;
+}
+.body {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--regular-16-size);
+  line-height: 26px;
+  color: var(--colour-main-blue-400);
+  z-index: 1;
+}
+.titleParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.introCopy,
+.introCopyInner,
+.introCopyWrapper {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.introCopyInner {
+  width: 445px;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 445px;
+  min-height: 307px;
+}
+.introCopy,
+.introCopyWrapper {
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.introCopy {
+  flex: 1;
+  align-items: flex-end;
+  padding: 91.79999999999995px var(--padding-146xl) 90.19999999999982px
+    var(--padding-142xl);
+  position: relative;
+  gap: var(--gap-106xl);
+}
+.introCopyWrapper {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 var(--padding-9xs) var(--padding-5xl) 0;
+  text-align: left;
+  font-size: var(--medium-36-size);
+  color: var(--colour-main-blue-900);
+  font-family: var(--regular-14);
+}
+@media screen and (max-width: 1200px) {
+  .introCopyInner {
+    flex: 1;
+    min-height: auto;
+  }
+  .introCopy {
+    flex-wrap: wrap;
+    gap: 125px 62px;
+    padding-left: var(--padding-61xl);
+    padding-right: var(--padding-63xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .title {
+    font-size: var(--font-size-10xl);
+    line-height: 38px;
+  }
+  .introCopyInner {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .undrawSocialInfluencerSgsvIcon {
+    min-width: 100%;
+  }
+  .introCopy {
+    gap: 125px 31px;
+    padding: var(--padding-41xl) var(--padding-22xl) var(--padding-40xl)
+      var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .title {
+    font-size: var(--font-size-3xl);
+    line-height: 29px;
+  }
+  .introCopy {
+    gap: 125px 16px;
+  }
+}

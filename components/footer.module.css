@@ -1,0 +1,205 @@
+.div,
+.rectangle {
+  position: relative;
+}
+.rectangle {
+  width: 1440px;
+  height: 216px;
+  background-color: var(--color-lavender);
+  display: none;
+  max-width: 100%;
+}
+.div {
+  line-height: 24px;
+  font-weight: 500;
+  z-index: 1;
+}
+.introCopy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0 0;
+}
+.landie1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 38px;
+  font-weight: 900;
+  font-family: inherit;
+  z-index: 2;
+}
+.cTAcopy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-4xs) 0 0;
+  font-size: var(--bold-26-size);
+  color: var(--colour-logo-primary);
+}
+.bg {
+  height: 26px;
+  width: 109px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  background-color: var(--colour-main-blue-800);
+  display: none;
+}
+.buttonLabel {
+  flex: 1;
+  position: relative;
+  line-height: 18px;
+  font-weight: 500;
+  z-index: 1;
+}
+.elementbuttonsmallfilled {
+  align-self: stretch;
+  border-radius: var(--br-11xs);
+  background-color: var(--colour-main-blue-800);
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0;
+  white-space: nowrap;
+  z-index: 1;
+}
+.elementbuttonsmallfilled,
+.iconButtonSmallFilled,
+.landie {
+  display: flex;
+  align-items: flex-start;
+}
+.iconButtonSmallFilled {
+  width: 109px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--medium-12-size);
+  color: var(--colour-secondary-white-100-general);
+}
+.landie {
+  width: 1110px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.emptyFrames {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  background-color: var(--color-lightgray);
+  z-index: 1;
+}
+.about,
+.contact,
+.home {
+  position: relative;
+  line-height: 24px;
+  z-index: 1;
+}
+.aboutFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-41xl);
+}
+.iconsocialinstagramCopy4 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  min-height: 16px;
+  z-index: 1;
+}
+.iconsocialinstagramCopy3 {
+  object-fit: cover;
+}
+.iconsocialinstagram,
+.iconsocialinstagramCopy,
+.iconsocialinstagramCopy2,
+.iconsocialinstagramCopy3 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  min-height: 16px;
+  z-index: 1;
+}
+.iconsocialinstagram,
+.iconsocialinstagramCopy {
+  object-fit: cover;
+}
+.emptyNodes {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.emptyFrames1,
+.emptyFrames2,
+.emptyNodes {
+  display: flex;
+  align-items: flex-start;
+}
+.emptyFrames2 {
+  width: 200px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+}
+.emptyFrames1 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.footer,
+.footerFrame {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+.footerFrame {
+  width: 1110px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  color: var(--colour-main-blue-300);
+}
+.footer {
+  align-self: stretch;
+  background-color: var(--color-lavender);
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-13xl) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+  min-height: 216px;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--regular-14-size);
+  color: var(--colour-main-grey-400);
+  font-family: var(--regular-14);
+}
+@media screen and (max-width: 750px) {
+  .emptyFrames1 {
+    flex-wrap: wrap;
+  }
+  .footer {
+    gap: 20px 40px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .landie1 {
+    font-size: var(--font-size-2xl);
+    line-height: 30px;
+  }
+  .landie {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
