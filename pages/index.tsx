@@ -1,11 +1,11 @@
 import type { NextPage } from "next";
-import FrameComponent5 from "./frame-component5";
-import UndrawMobileLoginIkmvEle from "./undraw-mobile-login-ikmv-ele";
-import FrameComponent3 from "./frame-component3";
-import FrameComponent2 from "./frame-component2";
-import FrameComponent1 from "./frame-component1";
-import FrameComponent from "./frame-component";
-import Footer from "./footer";
+import FrameComponent5 from "../components/frame-component5";
+import UndrawMobileLoginIkmvEle from "../components/undraw-mobile-login-ikmv-ele";
+import FrameComponent3 from "../components/frame-component3";
+import FrameComponent2 from "../components/frame-component2";
+import FrameComponent1 from "../components/frame-component1";
+import FrameComponent from "../components/frame-component";
+import Footer from "../components/footer";
 import styles from "./index.module.css";
 
 const LandingPage: NextPage = () => {
